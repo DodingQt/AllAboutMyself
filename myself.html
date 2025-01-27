@@ -3,17 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Online Store</title>
+    <title>All About Myself</title>
+    <style>
+        body, h1, h2, p, figure {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #005f6b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1100px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #005f6b;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        p {
+            margin: 15px 0;
+        }
+
+        figure {
+            margin: 15px 0;
+            text-align: center;
+        }
+        figure img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 8px;
+        }
+        figcaption {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #005f6b;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header nav ul {
+                text-align: center;
+                margin-top: 10px;
+            }
+            header nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+            figure img {
+                width: 90%;
+            }
+        }
+    </style>
 </head>
 <body>
     <header id="top">
-        <h1 style="text-align: center; color: navy;">All About Myself</h1>
+        <h1>All About Myself</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="myself.html">Home</a></li>
                 <li><a href="#about">About Myself</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Favorites">Favorites</a></li>
+                <li><a href="#Friends">Friends</a></li>
             </ul>
         </nav>
     </header>
@@ -24,35 +130,24 @@
         <article id="about">
             <section id="About_Myself">
                 <h2>About Myself</h2>
-                <p> Hi, I'm Vince Carter Yamba I am a 3rd year irregular student at SMCC or also known as Saint Michael Colleg of Caraga</p>
-                <p>I am 21 years and I was born on November 6, 2003 and I live in Brgy 7 Buenavista Agusan del Norte</p>
+                <p>Hi, I'm Vince Carter Yamba. I am a 3rd-year irregular student at SMCC (Saint Michael College of Caraga).</p>
+                <p>I am 21 years old, born on November 6, 2003, and I live in Brgy 7, Buenavista, Agusan del Norte.</p>
 
                 <figure>
                     <img src="Carter.jpg" alt="Carter" height="200">
-                    <figcaption style="font-weight: bold;">
-                        This is me
-                    </figcaption>
+                    <figcaption>This is me</figcaption>
                 </figure>
-
             </section>
 
             <section id="My_LifeStory">
                 <h2>My Life Story</h2>
                 <figure>
-                    <img src="Childhood.jpg" alt="Childhood" height="250"> <img src="Teenage.jpg" alt="Teenage" height="250"> <img src="Adult.jpg" alt="Adult" height="250">
-                    <figcaption style="font-weight: bold;">
-                        My Life Story
-                    </figcaption>
+                    <img src="Childhood.jpg" alt="Childhood" height="250">
+                    <img src="Teenage.jpg" alt="Teenage" height="250">
+                    <img src="Adult.jpg" alt="Adult" height="250">
+                    <figcaption>My Life Story</figcaption>
                     <p>
-                     
-
-                    I’m Vince Carter Yamba, and I’m studying at SMCC Nasipit here in the Philippines. Growing up, I’ve always been someone who enjoys the simpler things in life, and cycling became one of my favorite ways to escape the noise. It’s not about racing or competing for me—just the freedom of riding and the peace it brings.
-
-                    When I started college, I made sure cycling stayed a part of my routine. There’s something special about getting up early, hopping on my bike, and riding through the quiet streets before the day gets busy. It’s my time to think, clear my head, and get some fresh air. Whether it’s a short loop around town or a longer ride exploring new routes, cycling is my way to unwind.
-
-                    I’m not the most extraordinary student, but cycling has kept me balanced through all the stresses of college life. It’s helped me meet some great people too—other students who share the same love for bikes. We go on weekend rides together, exchanging stories and tips along the way.
-
-                    I’m not looking for anything too crazy with cycling, but it’s something that’s become a huge part of who I am. It’s my way of staying grounded, and I don’t see that changing anytime soon.
+                        I’m Vince Carter Yamba, studying at SMCC Nasipit, Philippines. Growing up, I enjoyed simple things like cycling, which brought peace. College life hasn’t changed that; I ride to clear my mind and connect with myself. It keeps me grounded amidst the stress.
                     </p>
                 </figure>
             </section>
@@ -63,73 +158,56 @@
         <article id="Hobbies">
             <section>
                 <h2>Outdoor Hobby</h2>
-
                 <figure>
-                    <img src="Cycling.jpg" alt="cycling" height="200">
-                    <figcaption style="font-weight: bold;">Outdoor Hobby</figcaption>
-                    <p>I love cycling because it gives me a sense of freedom and peace. Whether I’m riding through quiet streets or exploring new routes, it’s my way to unwind, clear my mind, and stay active. It’s simple, but it always helps me feel more connected to both myself and the world around me.</p>
+                    <img src="Cycling.jpg" alt="Cycling" height="200">
+                    <figcaption>Outdoor Hobby</figcaption>
+                    <p>I love cycling for the freedom it gives me, whether riding through quiet streets or exploring new routes.</p>
                 </figure>
 
                 <figure>
                     <img src="Indoor.png" alt="Indoor" height="200">
-                    <figcaption style="font-weight: bold;">Indoor Hobby</figcaption>
-                    <p>I love playing online games because it’s a fun way to challenge myself, relax, and connect with friends. Whether I’m exploring new worlds or competing in a team, it’s a great escape and a chance to unwind while having a good time.</p>
+                    <figcaption>Indoor Hobby</figcaption>
+                    <p>I enjoy playing online games, a fun way to relax, challenge myself, and stay connected with friends.</p>
                 </figure>
             </section>
 
-      <hr>
+        </article>
 
+        <hr>
+
+        <article id="Favorites">
             <section>
                 <h2>Favorites</h2>
                 <figure>
                     <img src="Icecream.jpg" alt="Icecream" height="200">
-                    <figcaption style="font-weight: bold;">Favorite Food</figcaption>
-                    <p>I love eating ice cream because it’s the perfect treat to satisfy my sweet tooth and lift my mood. There’s something about the cool, creamy texture and all the different flavors that makes every bite feel like a little moment of happiness.</p>
+                    <figcaption>Favorite Food</figcaption>
+                    <p>Ice cream is my favorite treat—it satisfies my sweet tooth and lifts my mood.</p>
                 </figure>
-    
+
                 <figure>
                     <img src="Weekend.jpg" alt="Weekend" height="200">
-                    <figcaption style="font-weight: bold;">Favorite Artist</figcaption>
-                    <p>I love listening to The Weeknd because his music has this unique blend of emotion, style, and vibe that really resonates with me. Whether it’s his smooth vocals or the catchy beats, his songs always create a mood that’s perfect for any moment—whether I’m chilling or in the zone.</p>
+                    <figcaption>Favorite Artist</figcaption>
+                    <p>I love listening to The Weeknd, whose music blends emotion and style, creating the perfect vibe.</p>
                 </figure>
             </section>
         </article>
 
         <hr>
 
-        <section>
-            <h2>Friends</h2>
-            <figure>
-                <img src="Close Friends.jpg" alt="Close Friends" height="200">
-                <figcaption style="font-weight: bold;">Close Friends</figcaption>
-                <p>I love eating ice cream because it’s the perfect treat to satisfy my sweet tooth and lift my mood. There’s something about the cool, creamy texture and all the different flavors that makes every bite feel like a little moment of happiness.</p>
-            </figure>
-
-            <figure>
-                <img src="College Friends.jpg" alt="College Friends" height="200">
-                <figcaption style="font-weight: bold;">College Friends</figcaption>
-                <p>I love listening to The Weeknd because his music has this unique blend of emotion, style, and vibe that really resonates with me. Whether it’s his smooth vocals or the catchy beats, his songs always create a mood that’s perfect for any moment—whether I’m chilling or in the zone.</p>
-            </figure>
-        </section>
-    </article>
-        
-        <hr>
-        
-        <article id="contact">
+        <article id="Friends">
             <section>
-                <h2>Contact Us</h2>
-                <p>Reach us out wiht these following contact deatails...</p>
-                <ul>
-                    <li>
-                        Landline: 343-5671
-                    </li>
-                    <li>
-                        Phone Number: 0910345678
-                    </li>
-                    <li>
-                        Email: <a href="mailto:marlon@gmail.com">marlon@gmail.com</a>
-                    </li>
-                </ul>
+                <h2>Friends</h2>
+                <figure>
+                    <img src="Close Friends.jpg" alt="Close Friends" height="200">
+                    <figcaption>Close Friends</figcaption>
+                    <p>Hanging out with my close friends is my favorite way to unwind, with genuine laughs and memories.</p>
+                </figure>
+
+                <figure>
+                    <img src="College Friends.jpg" alt="College Friends" height="200">
+                    <figcaption>College Friends</figcaption>
+                    <p>Spending time with my college friends always leads to laughter, energy, and unforgettable adventures.</p>
+                </figure>
             </section>
         </article>
 
@@ -137,9 +215,8 @@
 
     <hr>
 
-    <footer style="text-align: center;"">
-        <p  style="font-weight: bold;">All Rights Reserved &copy; MJ Timogan 2024</p>
-        <a href="#top" style="text-align: center;">Back to Top</a>
+    <footer>
+        <a href="#top">Back to Top</a>
     </footer>
 </body>
 </html>
